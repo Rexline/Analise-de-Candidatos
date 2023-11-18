@@ -1,11 +1,15 @@
 package candidatos;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class AnaliseCandidatos {
     public static void main(String[] args) {
-        analisarCandidato(1900.0);
+        analisarCandidato(1900);
         analisarCandidato(2000.0);
         analisarCandidato(2200.0);
     }
+
+
 
     static void analisarCandidato(double salarioPretendido) {
         double salarioBase = 2000.0;
